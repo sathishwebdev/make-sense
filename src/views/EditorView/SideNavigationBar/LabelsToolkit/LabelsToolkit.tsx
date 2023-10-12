@@ -58,6 +58,10 @@ class LabelsToolkit extends React.Component<IProps, IState> {
 
         const activeTab: LabelType = props.activeLabelType ? props.activeLabelType : this.tabs[0];
         props.updateActiveLabelType(activeTab);
+
+        setTimeout(() => {
+            props.updateActiveLabelType(props.projectType === ProjectType.IMAGE_RECOGNITION ? activeTab : LabelType.POLYGON);
+        }, 1000);
     }
 
     public componentDidMount(): void {

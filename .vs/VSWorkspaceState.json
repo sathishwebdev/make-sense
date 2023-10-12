@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\settings",
+    "\\src\\store",
+    "\\src\\store\\labels",
+    "\\src\\utils",
+    "\\src\\views",
+    "\\src\\views\\EditorView",
+    "\\src\\views\\EditorView\\SideNavigationBar",
+    "\\src\\views\\EditorView\\SideNavigationBar\\LabelsToolkit"
+  ],
+  "SelectedNode": "\\src\\store\\labels\\actionCreators.ts",
+  "PreviewInSolutionExplorer": false
+}
